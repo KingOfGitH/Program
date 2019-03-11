@@ -48,7 +48,8 @@ public class Sort {
                 }
             }
             if (nums[j+1]!=temp)nums[j+1]=temp;
-            }
+        }
         return nums;
     }
 }
+

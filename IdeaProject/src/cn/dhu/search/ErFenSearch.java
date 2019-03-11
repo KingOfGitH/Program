@@ -1,5 +1,7 @@
 package cn.dhu.search;
+
 //二分查找，找到返回下标，找不到返回-1
+
 public class ErFenSearch {
     public static void main(String[] args) {
         int[] num={1,2,3,4,5,6,7,8,9};

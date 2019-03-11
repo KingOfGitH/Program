@@ -1,9 +1,9 @@
-package cn.edu.dhu;
+package cn.dhu.register;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Hello {
+public class register {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int flag =0;//获取登陆前数字指令
@@ -62,7 +62,7 @@ public class Hello {
                     }while(!usr_pwd.equals(usr_pwd_again));
                     users.add(new User(usr_admin,usr_pwd));
                     System.out.println("恭喜您注册成功，请登录");
-                /*****************************登陆用户***************************************/
+                    /*****************************登陆用户***************************************/
                 case 2:
                     System.out.println("请输入您的账号:");
                     if(scanner.hasNext())
@@ -113,17 +113,17 @@ public class Hello {
                                         if (users.get(usr_id).getPassword().equals(usr_pwd))
                                         {
                                             do{
-                                            System.out.println("请输入您的新密码（6-16位字符）:");
-                                            while (!scanner.hasNext(".{6,16}")) {
-                                                System.out.println("请输入6-16位字符组成的密码！！！:");
-                                                scanner.next();
-                                            }
-                                            usr_pwd=scanner.next(".{6,16}");
-                                            System.out.println("请确认您的新密码:");
-                                            usr_pwd_again=scanner.next();
-                                            if(!usr_pwd.equals(usr_pwd_again)){
-                                                System.out.println("密码不一致，请重新输入！！！");
-                                            }
+                                                System.out.println("请输入您的新密码（6-16位字符）:");
+                                                while (!scanner.hasNext(".{6,16}")) {
+                                                    System.out.println("请输入6-16位字符组成的密码！！！:");
+                                                    scanner.next();
+                                                }
+                                                usr_pwd=scanner.next(".{6,16}");
+                                                System.out.println("请确认您的新密码:");
+                                                usr_pwd_again=scanner.next();
+                                                if(!usr_pwd.equals(usr_pwd_again)){
+                                                    System.out.println("密码不一致，请重新输入！！！");
+                                                }
                                             }while(!usr_pwd.equals(usr_pwd_again));
                                             users.get(usr_id).setPassword(usr_pwd);
                                         }

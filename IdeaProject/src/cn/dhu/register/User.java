@@ -1,4 +1,4 @@
-package cn.edu.dhu;
+package cn.dhu.register;
 
 import java.util.Objects;
 
