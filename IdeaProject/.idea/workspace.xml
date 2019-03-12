@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40557b64-cc4d-416f-9f2e-ed5cb15062cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Producter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/ProducterCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dhu/communication/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dhu/communication/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dhu/communication/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dhu/communication/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,20 +19,20 @@
     <session id="-1630834874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="564" />
+          <entry key="JAVA" value="1837" />
         </counts>
       </usages-collector>
     </session>
@@ -40,18 +40,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/dhu/register/register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/ProducterCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -61,20 +49,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/MessageType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Food.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1188">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -82,12 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Producter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -95,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="378">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
@@ -108,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/dhu/ball/ShuangSeBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="171" column="38" lean-forward="true" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+            <state relative-caret-position="4563">
+              <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,6 +180,10 @@
         <option value="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Customer.java" />
         <option value="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Food.java" />
         <option value="$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/ProducterCustomer.java" />
+        <option value="$PROJECT_DIR$/src/cn/dhu/communication/Message.java" />
+        <option value="$PROJECT_DIR$/src/cn/dhu/communication/Server.java" />
+        <option value="$PROJECT_DIR$/src/cn/dhu/communication/MessageType.java" />
+        <option value="$PROJECT_DIR$/src/cn/dhu/communication/Client.java" />
       </list>
     </option>
   </component>
@@ -152,8 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="width" value="1362" />
+    <option name="x" value="1034" />
+    <option name="width" value="893" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,32 +223,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dhu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dhu" type="462c0819:PsiDirectoryNode" />
-              <item name="ball" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dhu" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducterCustomer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552314247828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552398207163" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -221,7 +249,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducterCustomer">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dhu.communication.Client" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dhu.communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ErFenSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dhu.search.ErFenSearch" />
       <module name="Practice" />
@@ -248,25 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuangSeBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dhu.ball.ShuangSeBall" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dhu.communication.Server" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dhu.ball.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dhu.sort.SortMain" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dhu.sort.*" />
+          <option name="PATTERN" value="cn.dhu.communication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,19 +316,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ShuangSeBall" />
-      <item itemvalue="Application.SortMain" />
       <item itemvalue="Application.ErFenSearch" />
       <item itemvalue="Application.register" />
       <item itemvalue="Application.ProducterCustomer" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.ProducterCustomer" />
         <item itemvalue="Application.register" />
         <item itemvalue="Application.ErFenSearch" />
-        <item itemvalue="Application.SortMain" />
-        <item itemvalue="Application.ShuangSeBall" />
       </list>
     </recent_temporary>
   </component>
@@ -316,16 +344,17 @@
       <updated>1552308971334</updated>
       <workItem from="1552308973575" duration="609000" />
       <workItem from="1552311184848" duration="3066000" />
+      <workItem from="1552319879568" duration="10802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3675000" />
+    <option name="totallyTimeSpent" value="14477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="0" width="1362" height="1047" extended-state="0" />
+    <frame x="1034" y="0" width="893" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20814133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17527011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +364,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -393,7 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dhu/register/register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
+        <state relative-caret-position="4023">
           <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -401,31 +430,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/dhu/ball/ShuangSeBall.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Food.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="171" column="38" lean-forward="true" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1188">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Producter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="378">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
@@ -433,19 +455,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/dhu/ProducterCustomer/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/ball/ShuangSeBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="4563">
+          <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
           <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,6 +469,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/communication/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
