@@ -61,11 +61,6 @@ class UserThread implements Runnable{
                 Message msg=(Message)ois.readObject();
                 int type=msg.getType();
                 switch (type){
-                    case MessageType.TYPE_LOGIN:
-                        name=msg.getFrom();
-                        msg.setInfo("欢迎您");
-                        oos.writeObject(msg);
-                        break;
                     case MessageType.TYPE_SEND:
                         String to =msg.getTo();
                         UserThread ut;
@@ -76,6 +71,11 @@ class UserThread implements Runnable{
                                 break;
                             }
                         }
+                        break;
+                    case MessageType.TYPE_LOGIN:
+                        name=msg.getFrom();
+                        msg.setInfo("欢迎您");
+                        oos.writeObject(msg);
                         break;
                 }
             }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<people>
+    <person personid="E01">
+        <name>name1</name>
+        <address>address1</address>
+        <tel>0359 1</tel>
+        <fax>0359 1</fax>
+        <email>email1@qq.com</email>
+    </person>
+    <person personid="E02">
+        <name>name2</name>
+        <address>address2</address>
+        <tel>0359 2</tel>
+        <fax>0359 2</fax>
+        <email>email2@qq.com</email>
+    </person>
+</people>
