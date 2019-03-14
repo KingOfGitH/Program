@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="xpp3:xpp3_min:1.1.4c" type="repository">
+    <properties maven-id="xpp3:xpp3_min:1.1.4c" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/xpp3_min-1.1.4c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/xpp3_min-1.1.4c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/xpp3_min-1.1.4c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,6 +1,10 @@
 package com.dhu.xml;
 
 
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.Xpp3Driver;
+import org.dom4j.DocumentException;
+import org.dom4j.io.SAXReader;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
@@ -11,13 +15,48 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.*;
-import java.io.IOException;
-import java.io.InputStream;
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class PersonTest {
+public class XmlTest {
 
+    /**
+     * 输出xml文件
+     * @throws FileNotFoundException
+     */
+
+    @Test
+    public void xmlEnCoder() throws FileNotFoundException {
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream
+                (new FileOutputStream("test.xml"));
+        XMLEncoder xmlEncoder = new XMLEncoder(bufferedOutputStream);
+        Person p =new Person();
+        p.setPersonid("1212");
+        p.setAddress("1212");
+        p.setEmail("1212");
+        p.setName("1212");
+        p.setTel("1212");
+        p.setFox("1212");
+        xmlEncoder.writeObject(p);
+        xmlEncoder.close();
+    }
+
+    /**
+     * 从XML文件中读取对象
+     */
+
+    @Test
+    public void xmlDeCoder() throws FileNotFoundException {
+        BufferedInputStream bufferedInputStream = new BufferedInputStream
+                (new FileInputStream("test.xml"));
+        XMLDecoder decoder =new XMLDecoder(bufferedInputStream);
+        Person p = (Person) decoder.readObject();
+        System.out.println(p);
+    }
 
     /**
      * SAX解析的特点
@@ -148,6 +187,72 @@ public class PersonTest {
             list.add(person);
             System.out.println(person.toString());
         }
+    }
+
+    /**
+     * DOM4J解析
+     * 基于树型结构，第三方组件
+     * 解析速度快，效率更高，使用JAVA中的迭代器实现数据读取
+     * 在WEB框架中华使用较多（Hibernate）
+     * @throws DocumentException
+     */
+    @Test
+    public void dom4jParseXml() throws DocumentException {
+        SAXReader reader = new SAXReader();
+        InputStream is = Thread.currentThread().getContextClassLoader().
+                getResourceAsStream("com/dhu/xml/person.xml");
+        org.dom4j.Document read = reader.read(is);
+        org.dom4j.Element rootElement = read.getRootElement();
+        Iterator iterator = rootElement.elementIterator();
+        ArrayList<Person> people=new ArrayList<>();
+        Person p=null;
+        while (iterator.hasNext()){
+            p =new Person();
+            org.dom4j.Element next = (org.dom4j.Element) iterator.next();
+            p.setPersonid(next.attributeValue("personid"));
+            Iterator iterator1 = next.elementIterator();
+            while (iterator1.hasNext()){
+                org.dom4j.Element next1 = (org.dom4j.Element) iterator1.next();
+                String tar = next1.getName();
+                if("name".equals(tar)){
+                    p.setName(next1.getText());
+                }else if("address".equals(tar)){
+                    p.setAddress(next1.getText());
+                }else if("tel".equals(tar)){
+                    p.setTel(next1.getText());
+                }else if("fax".equals(tar)){
+                    p.setFox(next1.getText());
+                }else if("email".equals(tar)){
+                    p.setEmail(next1.getText());
+                }
+            }
+            people.add(p);
+            System.out.println(p.toString());
+        }
+    }
+
+    /**
+     * 使用第三方组件XSTEAM进行xml的解析与生成
+     */
+    @Test
+    public void xSteam(){
+        Person p=new Person();
+        p.setPersonid("1212");
+        p.setAddress("1212");
+        p.setEmail("1212");
+        p.setName("1212");
+        p.setTel("1212");
+        p.setFox("1212");
+
+//        生成XML
+        XStream xStream = new XStream(new Xpp3Driver());
+        xStream.alias("person",Person.class);
+        xStream.useAttributeFor(Person.class,"personid");
+        String xml = xStream.toXML(p);
+        System.out.println(xml);
+//        解析XML
+        Person person = (Person) xStream.fromXML(xml);
+        System.out.println(person);
     }
 
 }

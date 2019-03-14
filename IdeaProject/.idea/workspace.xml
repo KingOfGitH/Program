@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40557b64-cc4d-416f-9f2e-ed5cb15062cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jdom_jdom2_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dhu/xml/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dhu/xml/PersonHandleSAX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dhu/xml/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dhu/xml/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_xstream_xstream_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/createJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/json/names.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/cn/dhu/communication/UserThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/cn/dhu/communication/UserThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/dhu/communication/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dhu/communication/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/com/dhu/xml/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dhu/xml/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dhu/xml/XmlTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +31,26 @@
     <session id="-1630834874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="32" />
+          <entry key="JSON" value="6" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3561" />
+          <entry key="JAVA" value="5581" />
+          <entry key="JSON" value="73" />
           <entry key="XML" value="151" />
         </counts>
       </usages-collector>
@@ -50,45 +59,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/message.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="324">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/JsonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="57" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="57" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/PersonTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/createJsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="970">
-              <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
+            <state relative-caret-position="646">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +92,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/person.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/name.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/Names.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/names.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhu/json/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +187,15 @@
         <option value="$PROJECT_DIR$/src/com/dhu/xml/PersonHandle.java" />
         <option value="$PROJECT_DIR$/src/com/dhu/xml/PersonHandleSAX.java" />
         <option value="$PROJECT_DIR$/src/com/dhu/xml/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/xml/XmlTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/names.json" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/message.json" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/User.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/Message.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/Names.java" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/name.json" />
+        <option value="$PROJECT_DIR$/src/com/dhu/json/createJsonTest.java" />
       </list>
     </option>
   </component>
@@ -155,8 +206,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="929" />
+    <option name="width" value="998" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,6 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,25 +227,12 @@
             </path>
             <path>
               <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +241,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552487384666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552549837436" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
@@ -233,78 +273,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.jdomParseXml">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dhu.communication.Client" />
+  <component name="RunManager" selected="JUnit.createJsonTest.gson2">
+    <configuration name="JsonTest.parseJsonMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dhu.communication.*" />
+          <option name="PATTERN" value="com.dhu.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dhu.communication.Server" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dhu.communication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.domParseXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dhu.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dhu.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.dhu.xml.PersonTest" />
-      <option name="METHOD_NAME" value="domParseXml" />
+      <option name="PACKAGE_NAME" value="com.dhu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.dhu.json.JsonTest" />
+      <option name="METHOD_NAME" value="parseJsonMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.jdomParseXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTest.parseJsonNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dhu.xml.*" />
+          <option name="PATTERN" value="com.dhu.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dhu.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.dhu.xml.PersonTest" />
-      <option name="METHOD_NAME" value="jdomParseXml" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.saxParseXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dhu.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dhu.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.dhu.xml.PersonTest" />
-      <option name="METHOD_NAME" value="saxParseXml" />
+      <option name="PACKAGE_NAME" value="com.dhu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.dhu.json.JsonTest" />
+      <option name="METHOD_NAME" value="parseJsonNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -320,20 +317,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="createJsonTest.createJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhu.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dhu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.dhu.json.createJsonTest" />
+      <option name="METHOD_NAME" value="createJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createJsonTest.gson1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhu.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dhu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.dhu.json.createJsonTest" />
+      <option name="METHOD_NAME" value="gson1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createJsonTest.gson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhu.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dhu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.dhu.json.createJsonTest" />
+      <option name="METHOD_NAME" value="gson2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="JUnit.PersonTest.saxParseXml" />
-      <item itemvalue="JUnit.PersonTest.domParseXml" />
-      <item itemvalue="JUnit.PersonTest.jdomParseXml" />
+      <item itemvalue="JUnit.JsonTest.parseJsonNames" />
+      <item itemvalue="JUnit.JsonTest.parseJsonMessage" />
+      <item itemvalue="JUnit.createJsonTest.createJson" />
+      <item itemvalue="JUnit.createJsonTest.gson1" />
+      <item itemvalue="JUnit.createJsonTest.gson2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest.jdomParseXml" />
-        <item itemvalue="JUnit.PersonTest.domParseXml" />
-        <item itemvalue="JUnit.PersonTest.saxParseXml" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.createJsonTest.gson2" />
+        <item itemvalue="JUnit.createJsonTest.gson1" />
+        <item itemvalue="JUnit.createJsonTest.createJson" />
+        <item itemvalue="JUnit.JsonTest.parseJsonMessage" />
+        <item itemvalue="JUnit.JsonTest.parseJsonNames" />
       </list>
     </recent_temporary>
   </component>
@@ -351,20 +399,46 @@
       <workItem from="1552311184848" duration="3066000" />
       <workItem from="1552319879568" duration="10802000" />
       <workItem from="1552398553804" duration="10069000" />
-      <workItem from="1552471157536" duration="8879000" />
+      <workItem from="1552471157536" duration="9881000" />
+      <workItem from="1552524879467" duration="17251000" />
+      <workItem from="1552547313123" duration="2580000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_saxParseXml - 2019.03.13 at 17h 59m 44s.xml">
-      <configuration name="PersonTest.saxParseXml" configurationId="JUnit" />
+    <history-entry file="JsonTest_parseJsonMessage - 2019.03.14 at 13h 51m 16s.xml">
+      <configuration name="JsonTest.parseJsonMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_domParseXml - 2019.03.13 at 19h 52m 20s.xml">
-      <configuration name="PersonTest.domParseXml" configurationId="JUnit" />
+    <history-entry file="createJsonTest_createJson - 2019.03.14 at 14h 50m 09s.xml">
+      <configuration name="createJsonTest.createJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 14h 56m 47s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 01m 51s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 08m 48s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 09m 09s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 25m 28s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 30m 04s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson1 - 2019.03.14 at 15h 38m 28s.xml">
+      <configuration name="createJsonTest.gson1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createJsonTest_gson2 - 2019.03.14 at 15h 50m 18s.xml">
+      <configuration name="createJsonTest.gson2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33425000" />
+    <option name="totallyTimeSpent" value="54258000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -376,10 +450,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="929" y="0" width="998" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23851204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49902534" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32858709" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50097466" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.32894737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2651072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,37 +512,6 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23851204" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32858709" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.32894737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,13 +521,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/dhu/register/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dhu/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -562,52 +628,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/person.fxml" />
     <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/person.tld" />
-    <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/xmlTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/Person.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+    <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/XmlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/PersonHandleSAX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2084">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -618,10 +664,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dhu/xml/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/dhu/register/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
+        <state relative-caret-position="-297">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/message.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="57" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/Names.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/names.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/name.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhu/json/createJsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,7 +833,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.jdom:jdom2:2.0.6</last-edited>
+          <last-edited>com.google.code.gson:gson:1.7.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
