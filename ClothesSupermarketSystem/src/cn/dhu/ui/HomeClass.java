@@ -1,12 +1,21 @@
 package cn.dhu.ui;
 
 import cn.dhu.bean.Clothes;
+import cn.dhu.bean.Order;
+import cn.dhu.bean.OrderItem;
 import cn.dhu.service.ClothesService;
-import cn.dhu.service.impl.CLothesServiceImpl;
+import cn.dhu.service.OrderService;
+import cn.dhu.service.impl.ClothesServiceImpl;
+import cn.dhu.service.impl.OrderServiceImpl;
+import cn.dhu.utils.BusinessException;
+import cn.dhu.utils.DataUtils;
 
+import java.util.Date;
 import java.util.List;
 
 public class HomeClass extends BaseClass{
+    private OrderService orderService=new OrderServiceImpl();
+    private ClothesService clothesService=new ClothesServiceImpl();
 
     public void show(){
         showProducts();
@@ -24,7 +33,12 @@ public class HomeClass extends BaseClass{
                     findOrderById();
                     break;
                 case"3"://购买
-                    buyProduct();
+                    try{
+                        buyProduct();
+                    }
+                    catch (BusinessException e){
+                        println(e.getMessage());
+                    }
                     break;
                 case "0":
                     flag=false;
@@ -37,7 +51,57 @@ public class HomeClass extends BaseClass{
         }
     }
 
-    private void buyProduct() {
+    /**
+     * 购买商品
+     * @throws BusinessException
+     */
+    private void buyProduct() throws BusinessException {
+        //生成订单
+        boolean flag=true;
+        int count=0;
+        float sum=0;
+        Order order=new Order();
+        while (flag){
+            print(getString("product.input.id"));
+            String id=input.nextLine();
+            print(getString("product.input.shoppingNum"));
+            int shoppingNum= Integer.parseInt(input.nextLine());
+            OrderItem orderItem=new OrderItem();
+            Clothes clothes=clothesService.findClothesById(id);
+            if (shoppingNum>clothes.getNum()){
+                throw new BusinessException("product.num.error");
+            }
+            clothes.setNum(clothes.getNum()-shoppingNum);//减去库存
+            orderItem.setShoppingNum(shoppingNum);
+            orderItem.setClothes(clothes);
+            orderItem.setSum(clothes.getPrice()*shoppingNum);
+            orderItem.setItemId(++count);
+            sum+=orderItem.getSum();
+
+            order.getOrderItemList().add(orderItem);
+
+//            input.nextLine();//这里需要清除\n的缓存，不然下面的输入会无效。
+//            但之后的输入还会出现问题，需要避免nextxx与nextLine混用
+            println(getString("product.buy.continue"));
+            String isBuy=input.nextLine();
+            switch (isBuy){
+                case "1":
+                    break;
+                case "2":
+                    flag=false;
+                    break;
+
+                default:
+                    flag=false;
+                    break;
+            }
+        }
+        order.setCreateData(DataUtils.toDate(new Date()));
+        order.setUserId(currUser.getId());
+        order.setOrderId(orderService.list().size()+1);
+        order.setSum(sum);
+        clothesService.update();
+        showProducts();
     }
 
     private void findOrderById() {
@@ -48,7 +112,7 @@ public class HomeClass extends BaseClass{
     }
 
     private void showProducts() {
-        ClothesService clothesService=new CLothesServiceImpl();
+        ClothesService clothesService=new ClothesServiceImpl();
         List<Clothes> list=clothesService.list();
         ConsoleTable t = new ConsoleTable(8, true);
         t.appendRow();
