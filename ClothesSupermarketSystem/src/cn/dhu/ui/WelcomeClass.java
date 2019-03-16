@@ -42,5 +42,6 @@ public class WelcomeClass extends BaseClass{
                     println(getString("input.error"));
             }
         }
+        new HomeClass().show();
     }
 }
