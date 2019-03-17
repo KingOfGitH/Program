@@ -4,7 +4,7 @@ import cn.dhu.bean.Clothes;
 import cn.dhu.service.ClothesService;
 import cn.dhu.utils.BusinessException;
 import cn.dhu.utils.ClothesIO;
-import cn.dhu.utils.ProductsXmlUtils;
+
 
 import java.util.List;
 
