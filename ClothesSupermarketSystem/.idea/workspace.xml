@@ -7,7 +7,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a87167-9832-4b38-acbe-bc2cf0462e22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../webtest/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webtest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webtest/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/spring01quickstart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/ApplicationSpring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessagePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/ApplicationSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessagePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/spring02quickstart_xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/ApplicationSpring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/MessagePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/ApplicationSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/MessagePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/spring03wiring_auto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/test/java/soundsystem/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/META-INF/spring03wiring_auto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/CDPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/Power.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/test-classes/soundsystem/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,8 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,11 +290,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552808586123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553069699597" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProject/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -348,6 +403,7 @@
       <workItem from="1552799849651" duration="6950000" />
       <workItem from="1552810889949" duration="35000" />
       <workItem from="1552886566581" duration="408000" />
+      <workItem from="1553069659703" duration="75000" />
     </task>
     <servers />
   </component>
@@ -360,12 +416,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47841000" />
+    <option name="totallyTimeSpent" value="47916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17286652" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17724289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
