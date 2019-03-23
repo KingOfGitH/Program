@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link href="LoginUI.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript" src="LoginUI.js"></script>
+<body>
+<form action="http://www.baidu.com" method="get" onclick="true">
+    <table>
+        <tbody>
+        <tr>
+            <td>用户名：</td>
+            <td><input id="userName" name="userName" type="text"  onfocus="showUserName()" /><spqn id="123"></spqn></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input id="password" name="password" type="password" /></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <button type="reset" value="Register" onclick="window.location.href='D:\\app\\GitHub\\Program\\webtest\\RegisterUI\\Register.html'">注册</button>
+                <button type="submit" value="Login" onclick="">登陆</button>
+                <button type="reset" value="Reset" onclick="formReset()">重置</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p align="center">
+        <button type="reset" value="Register" onclick="window.location.href='D:\\app\\GitHub\\Program\\webtest\\RegisterUI\\Register.html'">注册</button>
+        <button type="submit" value="Login" onclick="">登陆</button>
+        <button type="reset" value="Reset" onclick="formReset()">重置</button>
+    </p>
+</form>
+</body>
+</html>

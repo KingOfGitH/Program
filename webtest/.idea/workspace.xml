@@ -2,92 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94bf1a0b-f7b9-4f02-bc05-9c15c37edd85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginUI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClothesSupermarketSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/bean/Clothes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/bean/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/bean/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/res/r.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/res/r_temp.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/res/run.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/service/ClothesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/service/impl/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/test/ProductsXmlUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/ConsoleTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/HomeClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/LoginClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/RegisterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/ui/WelcomeClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/ClothesIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/DataUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/EmptyUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/OrderIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/OrderStatusType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/ProductsXmlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClothesSupermarketSystem/out/production/ClothesSupermarketSystem/cn/dhu/utils/UserIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/spring01quickstart.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/ApplicationSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessagePrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/ApplicationSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessagePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/spring02quickstart_xml.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/ApplicationSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/MessagePrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/java/hello/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/ApplicationSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/MessagePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/hello/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/spring03wiring_auto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/CD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/java/soundsystem/Power.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/src/test/java/soundsystem/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/META-INF/spring03wiring_auto.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/CD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/CDPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/classes/soundsystem/Power.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring03wiring_auto/target/test-classes/soundsystem/AppTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginUI/LoginUI.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginUI/LoginUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginUI/LoginUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegisterUI/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegisterUI/RegisterUI.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegisterUI/RegisterUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginUI.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,21 +20,75 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="486">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LoginUI.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="413">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterUI/Register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterUI/RegisterUI.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterUI/RegisterUI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -122,8 +99,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>td&gt;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -133,7 +117,21 @@
       <list>
         <option value="$PROJECT_DIR$/text.html" />
         <option value="$PROJECT_DIR$/UI.html" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/.idea/RegisterUI.html" />
+        <option value="$PROJECT_DIR$/LoginUI.js" />
+        <option value="$PROJECT_DIR$/.idea/Register.html" />
+        <option value="$PROJECT_DIR$/RegisterUI.js" />
+        <option value="$PROJECT_DIR$/Register.html" />
         <option value="$PROJECT_DIR$/LoginUI.html" />
+        <option value="$PROJECT_DIR$/LoginUI.css" />
+        <option value="$PROJECT_DIR$/RegisterUI.css" />
+        <option value="$PROJECT_DIR$/RegisterUI/RegisterUI.js" />
+        <option value="$PROJECT_DIR$/RegisterUI/Register.html" />
+        <option value="$PROJECT_DIR$/RegisterUI/RegisterUI.css" />
+        <option value="$PROJECT_DIR$/LoginUI/LoginUI.html" />
+        <option value="$PROJECT_DIR$/LoginUI/LoginUI.js" />
+        <option value="$PROJECT_DIR$/LoginUI/LoginUI.css" />
       </list>
     </option>
   </component>
@@ -148,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -167,10 +165,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553138366815" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553307312810" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClothesSupermarketSystem" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\GitHub\Program\webtest\RegisterUI" />
+      <recent name="D:\app\GitHub\Program\webtest\LoginUI" />
+      <recent name="D:\app\GitHub\Program\webtest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,30 +201,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553060830550</updated>
-      <workItem from="1553060833874" duration="14610000" />
+      <workItem from="1553060833874" duration="18762000" />
+      <workItem from="1553212260835" duration="21330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14610000" />
+    <option name="totallyTimeSpent" value="40092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="957" y="0" width="968" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14647578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14977974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -225,15 +226,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,15 +249,63 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="486">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginUI.html">
+    <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/RegisterUI.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterUI/RegisterUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterUI/RegisterUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterUI/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,19 @@
+table{
+    border:1px solid #0afff8;
+    width:600px;
+    height:100px;
+    margin:150px auto;
+
+}
+td{
+    border:1px solid black;
+    width: 50px;
+}
+label,input{
+    float: left;
+    width: 250px;
+    border-width:0 0 0 0;
+    border-color:#000;
+    border-style:solid;
+    padding-bottom: 0px;
+}

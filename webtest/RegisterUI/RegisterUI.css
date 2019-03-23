@@ -1,0 +1,13 @@
+table{
+    border:1px solid black;
+    width:800px;
+    height:100px;
+    margin: auto;
+}
+td{
+    border:1px solid black;
+    width: 50px;
+}
+input{
+    left: 1px;
+}
