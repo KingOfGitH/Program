@@ -12,5 +12,6 @@
   </head>
   <body>
   $END$
+  <jsp:forward page="/hello"></jsp:forward>
   </body>
 </html>

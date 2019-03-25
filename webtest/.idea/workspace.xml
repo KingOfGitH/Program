@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94bf1a0b-f7b9-4f02-bc05-9c15c37edd85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/WEB-INF/classes/cn/dhu/edu/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/WEB-INF/classes/cn/dhu/edu/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/cn/dhu/edu/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/cn/dhu/edu/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginUI/LoginUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoginUI/LoginUI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUI/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUI/RegisterUI.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="548">
+              <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -132,7 +133,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
+    <option name="x" value="517" />
+    <option name="y" value="26" />
     <option name="width" value="1546" />
     <option name="height" value="1047" />
   </component>
@@ -142,8 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +165,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,16 +213,18 @@
       <workItem from="1553212260835" duration="21330000" />
       <workItem from="1553413854387" duration="1168000" />
       <workItem from="1553418226415" duration="10000" />
+      <workItem from="1553437964466" duration="434000" />
+      <workItem from="1553480256384" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41270000" />
+    <option name="totallyTimeSpent" value="41726000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="0" width="1546" height="1047" extended-state="0" />
+    <frame x="517" y="26" width="1546" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0948856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07671601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginUI/LoginUI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="548">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
         </state>
       </provider>
     </entry>
