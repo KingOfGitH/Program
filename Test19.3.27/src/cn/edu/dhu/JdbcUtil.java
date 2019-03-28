@@ -6,12 +6,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JdbcUtil {
-    private static String url="jdbc:mysql://localhost:3306/web";
+    private static String url="jdbc:mysql://localhost:3306/web?serverTimezone=GMT%2B8&useSSL=false";
     private static String user="root";
     private static String password="root";
     static {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

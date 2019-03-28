@@ -36,7 +36,7 @@ public class jdbc {
         String sql=" CREATE TABLE student(\n " +
                 " id INT PRIMARY KEY AUTO_INCREMENT,\n " +
                 " NAME VARBINARY(20),\n " +
-                " gender VARBINARY(2)) ";
+                " gender VARBINARY(3)) ";
         int count=statement.executeUpdate(sql);
         System.out.println("影响了"+count+"行!");
         if (null!=statement){
@@ -46,11 +46,11 @@ public class jdbc {
             connection.close();
     }
     @Test
-    public void test4() throws ClassNotFoundException, SQLException {
+    public void test4() throws SQLException {
 
         Connection connection=JdbcUtil.getConnection();
         Statement statement=connection.createStatement();
-        String sql="INSERT INTO student (NAME,gender) VALUE('zhangsan','nan')";
+        String sql="INSERT INTO student (NAME,gender) VALUE('王五','女')";
         int count=statement.executeUpdate(sql);
         System.out.println("影响了"+count+"行!");
         JdbcUtil.close(connection,statement);
@@ -64,13 +64,9 @@ public class jdbc {
         ResultSet resultSet = statement.executeQuery(sql);
         while (resultSet.next()){
             int id= resultSet.getInt("id");
-            String name= new String(resultSet.getString("name").getBytes(),"UTF-8");
-            String gender= resultSet.getString(3);
+            String name= new String(resultSet.getString("name").getBytes("ISO-8859-1"),"UTF-8");
+            String gender=new String( resultSet.getString(3).getBytes("ISO-8859-1"),"UTF-8");
             System.out.println(id+","+name+","+gender);
-            String s=name;
-            System.out.println("这里");
-            System.out.println(name);
-            System.out.println("gender编码："+System.getProperty(gender));
         }
         JdbcUtil.close(connection,statement);
     }

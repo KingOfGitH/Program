@@ -4,7 +4,7 @@ import cn.dhu.bean.User;
 import cn.dhu.service.UserService;
 import cn.dhu.service.impl.UserServiceImpl;
 import cn.dhu.utils.BusinessException;
-import com.sun.xml.internal.messaging.saaj.packaging.mime.util.BEncoderStream;
+
 
 public class LoginClass extends BaseClass{
 
