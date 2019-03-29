@@ -18,6 +18,7 @@ public class LoginServlet extends HttpServlet {
         request.setCharacterEncoding("utf-8");
         //1、接收参数、
         String userName = request.getParameter("userName");
+        System.out.println("测试"+userName);
         String userPwd = request.getParameter("userPwd");
 
         //2、判断逻辑

@@ -31,5 +31,6 @@ public class IndexServlet extends HttpServlet {
         }
         html="<html><body>欢迎回来，"+loginName+"，<a href='"+request.getContextPath()+"/logoutpage'>安全退出</a></body></html>";
         writer.write(html);
+
     }
 }
