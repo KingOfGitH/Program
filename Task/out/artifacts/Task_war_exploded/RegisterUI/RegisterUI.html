@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="RegisterUI.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript" src="RegisterUI.js"></script>
+<body>
+<form>
+    <table>
+        <tbody>
+        <tr >
+            <td><label for="userName">用户名：</label></td>
+            <td><input type="text" id="userName" name="userName" value="" onblur="checkName()"/><span id="userNameState">*</span></td>
+        </tr>
+        <tr>
+            <td><label for="password">密码：</label></td>
+            <td><input type="password" id="password" name="password" value="" onblur="checkPassword()" /><span id="passwordState">*</span></td>
+        </tr>
+        <tr>
+            <td><label for="password1">确认密码：</label> </td>
+            <td><input id="password1" type="password" name="password1" value="" onblur="checkPassword1()"/><span id="password1State">*</span></td>
+        </tr>
+        <tr>
+            <td>性别：</td>
+            <td><input id="male" type="radio" name="sexRadio" value="" checked="checked"/><span>男</span>
+                <input id="female" type="radio" name="sexRadio" value="" /><span>女</span>
+            </td>
+        </tr>
+        <tr>
+            <td>email:</td>
+            <td><input id="email" type="text" /></td>
+        </tr>
+        <tr>
+            <td>手机：</td>
+            <td><input id="phone" type="text" /></td>
+        </tr>
+        <tr>
+            <td>籍贯：</td>
+            <td><select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+            </select></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

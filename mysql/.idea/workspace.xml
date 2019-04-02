@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faff720-8a21-46f6-b2ff-4fdcb69c8473" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_alibaba_druid_1_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_commons_dbutils_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_commons_logging_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HttpServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/classes/cn/edu/dhu/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/classes/cn/edu/dhu/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/classes/cn/edu/dhu/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/classes/cn/edu/dhu/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/out/production/HttpServlet/cn/edu/dhu/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/out/production/HttpServlet/cn/edu/dhu/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/out/production/HttpServlet/cn/edu/dhu/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/out/production/HttpServlet/cn/edu/dhu/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/src/cn/edu/dhu/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServlet/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mysql/cn/edu/dhu/jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mysql/cn/edu/dhu/jdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/Jdbc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="578" />
     <option name="y" value="30" />
     <option name="width" value="1232" />
@@ -391,8 +364,7 @@
     <option name="totallyTimeSpent" value="55079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="30" width="1232" height="1012" extended-state="1" />
-    <editor active="true" />
+    <frame x="578" y="30" width="1232" height="1012" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16040955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

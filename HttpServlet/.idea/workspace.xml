@@ -7,30 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a626ecc0-d669-4f00-a27a-bfd27fd92fbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/com_alibaba_druid_1_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/commons_dbutils_commons_dbutils_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/commons_logging_commons_logging_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/libraries/log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/src/cn/edu/dhu/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysql/src/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysql/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysql/mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/mysql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysql/out/production/mysql/cn/edu/dhu/jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/out/production/mysql/cn/edu/dhu/jdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysql/src/cn/edu/dhu/jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/src/cn/edu/dhu/Jdbc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -219,7 +196,7 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="626" />
     <option name="y" value="40" />
     <option name="width" value="974" />
@@ -397,29 +374,29 @@
       <workItem from="1553607452433" duration="701000" />
       <workItem from="1553776218408" duration="4408000" />
       <workItem from="1553852782251" duration="1072000" />
-      <workItem from="1553862466906" duration="1543000" />
+      <workItem from="1553862466906" duration="2189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15466000" />
+    <option name="totallyTimeSpent" value="16112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="626" y="40" width="974" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49293286" visible="true" weight="0.22210066" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49365628" visible="true" weight="0.22210066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.50706714" side_tool="true" visible="true" weight="0.22210066" />
+      <window_info id="Web" order="7" sideWeight="0.5063437" side_tool="true" visible="true" weight="0.22210066" />
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34717417" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.34717417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="216">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
