@@ -17,12 +17,12 @@ import java.util.Map;
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         this.doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
         /*手动获取对象
         String userName=request.getParameter("userName");
         String password=request.getParameter("password");
@@ -42,7 +42,9 @@ public class LoginServlet extends HttpServlet {
         UserDAO userDAO=new UserDAOImpl();
         User user = userDAO.login(loginUser);
         if (null == user){
-            request.getRequestDispatcher("/failServlet").forward(request,response);//转发
+//            request.getRequestDispatcher("/failServlet").forward(request,response);//转发
+//            response.getWriter().print("<script> alert(\"请确认您的账号密码!\"); </script>");
+            response.getWriter().write("<script> alert(\"请确认您的账号密码!\"); </script>");
         }else {
             request.setAttribute("user",user);
             request.getRequestDispatcher("/successServlet").forward(request,response);
