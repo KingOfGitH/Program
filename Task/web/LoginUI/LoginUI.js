@@ -12,3 +12,10 @@ function formReset()
     document.getElementById("password").reset();
     document.getElementById("password").reset();
 }
+function resetImage(){
+        var img=document.getElementById("checkImage");
+        img.onclick=function () {
+            var time = new Date().getTime();
+            img.src="/Task/checkCodeServlet?"+time;
+        }
+}
