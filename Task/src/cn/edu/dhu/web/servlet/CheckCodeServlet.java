@@ -30,16 +30,19 @@ public class CheckCodeServlet extends HttpServlet {
         graphics.setColor(Color.BLUE);
         graphics.drawRect(0,0,width-1,height-1);
 
+        graphics.setColor(Color.YELLOW);
+        graphics.setFont(new Font("楷体",Font.BOLD,24));
         String str="ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234546789";
+        String checkCode="";
         Random random=new Random();
         for (int i = 1; i <=4; i++) {
             int index = random.nextInt(str.length());
             char ch = str.charAt(index);
 
+            checkCode+=ch;
             graphics.drawString(ch+"",width/5*i,height/2*(index+31)/str.length());
         }
         graphics.setColor(Color.GREEN);
-
         for (int i = 0; i < 10; i++) {
             int x1=random.nextInt(width);
             int x2=random.nextInt(width);
@@ -48,6 +51,7 @@ public class CheckCodeServlet extends HttpServlet {
             graphics.drawLine(x1,y1,x2,y2);
         }
 
+        request.getSession().setAttribute("CHECKCODE_SERVER",checkCode);
 
         ImageIO.write(image,"jpg",response.getOutputStream());
     }

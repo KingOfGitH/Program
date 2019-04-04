@@ -21,7 +21,7 @@ public class JDBCUtils {
             dataSource=DruidDataSourceFactory.createDataSource(properties);
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("JDBCUtils");
+            System.out.println("JDBCUtils.static");
         }
     }
     /**
@@ -37,4 +37,5 @@ public class JDBCUtils {
     public static Connection getConnection() throws SQLException {
         return dataSource.getConnection();
     }
+
 }

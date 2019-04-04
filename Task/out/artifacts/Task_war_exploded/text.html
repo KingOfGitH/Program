@@ -7,22 +7,45 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>Bootstrap 101 Template</title>
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="birthday.js"></script>
 </head>
 <body>
 <h1>你好，世界！</h1>
-<table class="table table-hover">
-    <tbody>
-    <tr><th>一</th><th>二</th><th>三</th><th>五</th><th>七</th></tr>
-    <tr><td>一</td><td>二</td><td>三</td><td>五</td><td>八</td></tr>
-    <tr><td>一</td><td>二</td><td>三</td><td>五</td><td>八</td></tr>
-    </tbody>
 
-</table>
+<select  id="selYear"></select>年
+<select  id="selMonth"></select>月
+<select  id="selDay"></select>日
+<!--完成出生日期的选择--需写在</body>前-->
+<!--<script type="text/javascript">-->
+<!--    var selYear = window.document.getElementById("selYear");-->
+<!--    var selMonth = window.document.getElementById("selMonth");-->
+<!--    var selDay = window.document.getElementById("selDay");-->
+<!--    // 新建一个DateSelector类的实例，将三个select对象传进去-->
+<!--    new DateSelector(selYear, selMonth, selDay, 1995, 1, 17);-->
+<!--    // 也可以试试下边的代码-->
+<!--    // var dt = new Date(2004, 1, 29);-->
+<!--    // new DateSelector(selYear, selMonth ,selDay, dt);-->
+<!--</script>-->
+<select class="form-control">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+</select>
+<div class="container">
+    <center><h3>注册页面</h3></center>
+    <form action="" method="post">
+
+
+
+
+    </form>
+</div>
 </body>
 </html>

@@ -18,4 +18,9 @@ public class UserServiceImpl implements UserService {
     public List<User> find() {
         return userDAO.find();
     }
+
+    @Override
+    public User login(User loginuser) {
+        return userDAO.login(loginuser);
+    }
 }

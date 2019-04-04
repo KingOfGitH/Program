@@ -33,6 +33,7 @@ public class UserDAOImpl implements UserDAO {
             List<User> list = template.query(sql,new BeanPropertyRowMapper<User>(User.class));
             return list;
         }catch (Exception e){
+            System.out.println("UserDAOImpl.find()");
             return null;
         }
     }

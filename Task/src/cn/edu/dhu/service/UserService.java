@@ -10,4 +10,5 @@ import java.util.List;
  */
 public interface UserService {
     public List<User> find();//查找所有数据，直接调用UserDAO中的同名方法
+    public User login(User loginuser);
 }

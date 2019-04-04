@@ -16,7 +16,7 @@ import java.util.List;
  * @author zhbr
  * @date 2019/4/3 17:21
  */
-@WebServlet("/UserListServlet")
+@WebServlet("/userListServlet")
 public class UserListServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -24,7 +24,11 @@ public class UserListServlet extends HttpServlet {
         UserService userService=new UserServiceImpl();
         List<User> users = userService.find();
 
+        for(int i=0;i<users.size();i++)
+            System.out.println(users.get(i));
+
         request.setAttribute("users",users);
+        request.getRequestDispatcher("/list.jsp").forward(request,response);
 
     }
 

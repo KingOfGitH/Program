@@ -20,7 +20,7 @@ public class SuccessServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         User user= (User) request.getAttribute("user");
         if (null!=user){
-            response.getWriter().write("<h1>登陆成功！用户"+user.getUserName()+"，欢迎您！</h1>");
+
             boolean flag=true;
             Date date=new Date();
             SimpleDateFormat simpleDateFormat=new SimpleDateFormat(

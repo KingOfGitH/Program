@@ -2,16 +2,14 @@ package cn.edu.dhu.beans;
 
 import cn.edu.dhu.util.ChangeEncoding;
 
-import java.util.Date;
-
 public class User {
     private int id;
     private String userName;
     private String password;
     private String gender;
-    private Date birthday;
     private int age;
-    private String region;
+    private String address;
+    private String  email;
 
     @Override
     public String toString() {
@@ -20,9 +18,9 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 ", gender='" + ChangeEncoding.ChangeEncoding(gender) + '\'' +
-                ", birthday=" + birthday +
                 ", age=" + age +
-                ", region='" + ChangeEncoding.ChangeEncoding(region)+ '\'' +
+                ", address='" + ChangeEncoding.ChangeEncoding(address)+ '\'' +
+                ", email=" + email +
                 '}';
     }
 
@@ -58,12 +56,12 @@ public class User {
         this.gender = gender;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public String getemail() {
+        return email;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setemail(String email) {
+        this.email = email;
     }
 
     public int getAge() {
@@ -74,11 +72,11 @@ public class User {
         this.age = age;
     }
 
-    public String getRegion() {
-        return ChangeEncoding.ChangeEncoding(region);
+    public String getaddress() {
+        return ChangeEncoding.ChangeEncoding(address);
     }
 
-    public void setRegion(String region) {
-        this.region = region;
+    public void setaddress(String address) {
+        this.address = address;
     }
 }
