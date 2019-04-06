@@ -10,26 +10,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * @author zhbr
- * @date 2019/4/3 17:21
+ * @date 2019/4/5 18:44
+ * 在更新时，根据userName查找数据进行数据回显功能
  */
-@WebServlet("/userListServlet")
-public class UserListServlet extends HttpServlet {
+@WebServlet("/findUserServlet")
+public class FindUserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
+
+        String userName = request.getParameter("userName");
         UserService userService=new UserServiceImpl();
-        List<User> users = userService.find();
-//
-//        for(int i=0;i<users.size();i++)
-//            System.out.println(users.get(i));
+        User user = userService.find(userName);
+        request.setAttribute("user",user);
 
-        request.setAttribute("users",users);
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
-
+        request.getRequestDispatcher("/update.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

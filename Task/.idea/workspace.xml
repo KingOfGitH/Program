@@ -7,64 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deef74f4-179c-473b-ad06-99b257d70c8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/RegisterUI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/birthday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/beans/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteSelectedServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserByPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UpdateUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/LoginUI/LoginUI.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/LoginUI/LoginUI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/LoginUI/LoginUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI/RegisterUI.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI/RegisterUI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI/RegisterUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/RegisterUI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/beans/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/beans/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/dao/impl/UserDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/test/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/test/UserDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/util/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/CheckCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/CheckCodeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/SuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/SuccessServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/cn/edu/dhu/web/servlet/UserListServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_war_exploded/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/beans/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/beans/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/dao/impl/UserDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/test/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/test/UserDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/util/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/CheckCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/CheckCodeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/SuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/SuccessServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/cn/edu/dhu/web/servlet/UserListServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task/druid.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/test/UserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/test/UserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/util/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/SuccessServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/SuccessServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/LoginUI/LoginUI.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/LoginUI/LoginUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/LoginUI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/LoginUI/LoginUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/LoginUI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/RegisterUI/RegisterUI.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/RegisterUI/RegisterUI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/RegisterUI/RegisterUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/RegisterUI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/RegisterUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/RegisterUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/RegisterUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/RegisterUI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,75 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2111#2118#1#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="53" column="59" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/test/UserDAOTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserByPageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FailServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="14" column="82" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/SuccessServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="464">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -160,11 +88,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-864">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-790">
+              <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="135" column="106" selection-start-line="135" selection-start-column="106" selection-end-line="135" selection-end-column="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,17 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="756">
+              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -194,10 +177,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -206,11 +189,27 @@
       <find>birthday</find>
       <find>region</find>
       <find>adress</find>
+      <find>email</find>
+      <find>pass</find>
+      <find>userName</find>
+      <find>Address</find>
+      <find>sex</find>
+      <find>g</find>
+      <find>getGender</find>
+      <find>getRegion</find>
     </findStrings>
     <replaceStrings>
       <replace>email</replace>
       <replace>adress</replace>
       <replace>address</replace>
+      <replace>password</replace>
+      <replace>age</replace>
+      <replace>newPass</replace>
+      <replace>oldPassword</replace>
+      <replace>Region</replace>
+      <replace>region</replace>
+      <replace>getGenderIso</replace>
+      <replace>getRegionIso</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -230,27 +229,37 @@
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/util/DownLoadUtils.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DownloadServlet.java" />
         <option value="$PROJECT_DIR$/web/LoginUI/LoginUI.css" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/web/RegisterUI/RegisterUI.html" />
-        <option value="$PROJECT_DIR$/web/RegisterUI.html" />
         <option value="$PROJECT_DIR$/web/birthday.js" />
         <option value="$PROJECT_DIR$/web/text.html" />
-        <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java" />
-        <option value="$PROJECT_DIR$/web/update.jsp" />
-        <option value="$PROJECT_DIR$/src/druid.properties" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/util/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/SuccessServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java" />
-        <option value="$PROJECT_DIR$/web/list.jsp" />
+        <option value="$PROJECT_DIR$/src/druid.properties" />
+        <option value="$PROJECT_DIR$/web/RegisterUI.html" />
         <option value="$PROJECT_DIR$/src/cn/edu/dhu/test/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/web/RegisterUI.js" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteUserServlet.java" />
+        <option value="$PROJECT_DIR$/web/update.js" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UpdateUserServlet.java" />
+        <option value="$PROJECT_DIR$/web/update.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteSeletedServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteSelectedServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/beans/Page.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/list.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserByPageServlet.java" />
       </list>
     </option>
   </component>
@@ -280,6 +289,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,8 +380,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +392,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -392,15 +401,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\app\GitHub\Program\Task\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\GitHub\Program\Task\web\WEB-INF" />
       <recent name="D:\app\GitHub\Program\Task\web\js" />
       <recent name="D:\app\GitHub\Program\Task\web" />
       <recent name="D:\app\GitHub\Program\Task\web\WEB-INF\lib" />
       <recent name="D:\app\GitHub\Program\Task\src\cn\edu\dhu\util" />
-      <recent name="D:\app\GitHub\Program\Task\src\cn\edu\dhu\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\GitHub\Program\Task\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDAOTest.test0">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
     <configuration name="UserDAOTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task" />
       <extension name="coverage">
@@ -539,9 +548,9 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserDAOTest.testLogin" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
       <item itemvalue="JUnit.UserDAOTest.test" />
       <item itemvalue="JUnit.UserDAOTest.test0" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
     </list>
     <recent_temporary>
       <list>
@@ -564,55 +573,56 @@
       <workItem from="1554112347805" duration="16232000" />
       <workItem from="1554196115061" duration="3813000" />
       <workItem from="1554219632283" duration="47642000" />
+      <workItem from="1554444120525" duration="52229000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 21h 33m 50s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 21h 34m 30s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 21h 43m 33s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 22h 14m 17s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 22h 16m 15s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_testLogin - 2019.04.01 at 22h 35m 44s.xml">
-      <configuration name="UserDAOTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_test - 2019.04.04 at 19h 36m 40s.xml">
-      <configuration name="UserDAOTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_test - 2019.04.04 at 19h 44m 36s.xml">
-      <configuration name="UserDAOTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDAOTest_test - 2019.04.04 at 19h 45m 46s.xml">
       <configuration name="UserDAOTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserDAOTest_test - 2019.04.04 at 19h 48m 37s.xml">
       <configuration name="UserDAOTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 14h 38m 43s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 14h 41m 55s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 14h 44m 27s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 15h 40m 31s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 16h 20m 02s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 16h 38m 13s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 17h 37m 28s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_test0 - 2019.04.05 at 18h 51m 05s.xml">
+      <configuration name="UserDAOTest.test0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67687000" />
+    <option name="totallyTimeSpent" value="119916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49289098" visible="true" weight="0.15938166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76619273" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Learn" order="5" />
-      <window_info id="Web" order="6" sideWeight="0.507109" side_tool="true" visible="true" weight="0.15938166" />
+      <window_info id="Web" order="6" sideWeight="0.23380727" side_tool="true" visible="true" weight="0.15778251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31344903" />
@@ -682,13 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/LoginUI/LoginUI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/LoginUI/LoginUI.css" />
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1782" />
@@ -755,48 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/LoginUI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/RegisterUI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/RegisterUI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DownloadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/druid.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -811,10 +773,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/util/ChangeEncoding.java">
+    <entry file="file://$PROJECT_DIR$/web/LoginUI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="232">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/LoginUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -822,53 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,47 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/LoginUI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="31" column="81" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FailServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -935,85 +830,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="53" column="59" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/SuccessServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="-540">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2111#2118#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/test/UserDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="177">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/util/ChangeEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/RegisterUI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/RegisterUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/CheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="71" column="10" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UserListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" selection-start-line="25" selection-start-column="2" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/DeleteSelectedServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/beans/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/UpdateUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/beans/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/dao/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="135" column="106" selection-start-line="135" selection-start-column="106" selection-end-line="135" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-790">
+          <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/dhu/web/servlet/FindUserByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>

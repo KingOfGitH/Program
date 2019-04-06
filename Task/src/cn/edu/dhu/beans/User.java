@@ -8,8 +8,8 @@ public class User {
     private String password;
     private String gender;
     private int age;
-    private String address;
-    private String  email;
+    private String region;
+    private String email;
 
     @Override
     public String toString() {
@@ -17,9 +17,20 @@ public class User {
                 "id=" + id +
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
-                ", gender='" + ChangeEncoding.ChangeEncoding(gender) + '\'' +
+                ", gender='" + this.getGender() + '\'' +
                 ", age=" + age +
-                ", address='" + ChangeEncoding.ChangeEncoding(address)+ '\'' +
+                ", region='" + this.getRegion() + '\'' +
+                ", email=" + email +
+                '}';
+    }
+    public String toString(int i) {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", gender='" + gender+ '\'' +
+                ", age=" + age +
+                ", region='" + region + '\'' +
                 ", email=" + email +
                 '}';
     }
@@ -52,16 +63,12 @@ public class User {
         return ChangeEncoding.ChangeEncoding(gender);
     }
 
+    public String getGenderIso() {
+        return gender;
+    }
+
     public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public String getemail() {
-        return email;
-    }
-
-    public void setemail(String email) {
-        this.email = email;
     }
 
     public int getAge() {
@@ -72,11 +79,23 @@ public class User {
         this.age = age;
     }
 
-    public String getaddress() {
-        return ChangeEncoding.ChangeEncoding(address);
+    public String getRegionIso() {
+        return region;
+    }
+    public String getRegion() {
+        return ChangeEncoding.ChangeEncoding(region);
     }
 
-    public void setaddress(String address) {
-        this.address = address;
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
