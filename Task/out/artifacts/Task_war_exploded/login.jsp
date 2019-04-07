@@ -29,7 +29,7 @@
 </head>
 <body>
 <div class="container" style="width: 400px;">
-    <h3 style="text-align: center;">管理员登录</h3>
+    <h3 style="text-align: center;">用户登录</h3>
     <form action="${pageContext.request.contextPath}/loginServlet" method="post">
         <div class="form-group">
             <label for="userName">用户名：</label>
@@ -51,6 +51,7 @@
         <hr/>
         <div class="form-group" style="text-align: center;">
             <input class="btn btn btn-primary" type="submit" value="登录">
+            <a href="${pageContext.request.contextPath}/register.jsp"><input class="btn btn btn-primary" type="button" value="注册"></a>
         </div>
     </form>
 
@@ -59,7 +60,7 @@
         <button type="button" class="close" data-dismiss="alert" >
             <span>&times;</span>
         </button>
-        <strong>登录失败!${login_msg}</strong>
+        <strong>${login_msg}</strong>
     </div>
 </div>
 </body>

@@ -60,18 +60,18 @@
     <h3 style="text-align: center">注册用户列表</h3>
     <%--  复合查询表单  --%>
     <div style="float: left;margin: 5px;">
-        <form class="form-inline">
+        <form class="form-inline"action="${pageContext.request.contextPath}/findUserByPageServlet" method="post">
             <div class="form-group">
                 <label for="findUserName">用户名</label>
-                <input type="text" class="form-control" id="findUserName">
+                <input type="text" class="form-control" id="findUserName" name="userName" value="${contion.userName[0]}">
             </div>
             <div class="form-group">
                 <label for="findAddress">籍贯</label>
-                <input type="email" class="form-control" id="findAddress">
+                <input type="text" class="form-control" id="findAddress" name="region" value="${contion.region[0]}">
             </div>
             <div class="form-group">
                 <label for="findEmail">Email</label>
-                <input type="email" class="form-control" id="findEmail">
+                <input type="text" class="form-control" id="findEmail" name="email" value="${contion.email[0]}">
             </div>
             <button type="submit" class="btn btn-default">查询</button>
         </form>
@@ -79,8 +79,8 @@
     </div>
     <%--选中删除操作--%>
     <div style="float: right;margin: 5px;">
-        <a class="btn btn-primary" href="${pageContext.request.contextPath}/register.jsp">注册用户</a>
         <a class="btn btn-primary" href="javascript:void(0);" id="deleteSelected">删除选中</a>
+        <a class="btn btn-primary" href="${pageContext.request.contextPath}/index.jsp">返回菜单</a>
     </div>
 
     <form id="selectedForm" action="${pageContext.request.contextPath}/deleteSelectedServlet" method="post">
@@ -131,7 +131,7 @@
                 </c:if>
                 <c:if test="${page.currentPage!=1}">
                     <li>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${page.currentPage-1}&rows=5" aria-label="Previous">
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${page.currentPage-1}&rows=5&userName=${contion.userName[0]}&region=${contion.region[0]}&email=${contion.email[0]}" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
@@ -139,11 +139,11 @@
 
                 <c:forEach begin="1" end="${page.totalPage}" var="i">
                     <c:if test="${page.currentPage!=i}">
-                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
+                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&userName=${contion.userName[0]}&region=${contion.region[0]}&email=${contion.email[0]}">${i}</a></li>
                     </c:if>
                     <c:if test="${page.currentPage==i}">
                         <li class="active">
-                            <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}
+                            <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&userName=${contion.userName[0]}&region=${contion.region[0]}&email=${contion.email[0]}">${i}
                                 <span class="sr-only">(current)</span></a>
                         </li>
                     </c:if>
@@ -161,7 +161,7 @@
 
                 <c:if test="${page.currentPage!=page.totalPage}">
                     <li>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${page.currentPage+1}&rows=5" aria-label="Next">
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${page.currentPage+1}&rows=5&userName=${contion.userName[0]}&region=${contion.region[0]}&email=${contion.email[0]}" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </li>

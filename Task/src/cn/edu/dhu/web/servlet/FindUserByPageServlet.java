@@ -40,7 +40,7 @@ public class FindUserByPageServlet extends HttpServlet {
 
 
         request.setAttribute("page",page);
-        request.setAttribute("contion");
+        request.setAttribute("contion",contion);
         request.getRequestDispatcher("/list.jsp").forward(request,response);
     }
 

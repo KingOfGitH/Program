@@ -24,9 +24,9 @@ public class UpdateUserServlet extends HttpServlet {
         request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
         Map<String,String[]> map=request.getParameterMap();
-        for (String[] value : map.values()) {
-            System.out.println("Value = " + value[0]);
-        }
+//        for (String[] value : map.values()) {
+//            System.out.println("Value = " + value[0]);
+//        }
         User updateuser=new User();
         try {
             BeanUtils.populate(updateuser,map);
@@ -35,11 +35,11 @@ public class UpdateUserServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        System.out.println(updateuser.toString(1));
+//        System.out.println(updateuser.toString(1));
         UserService userService=new UserServiceImpl();
         userService.update(updateuser);
 
-        response.sendRedirect(request.getContextPath()+"/userListServlet");
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -30,7 +30,7 @@ public class CheckCodeServlet extends HttpServlet {
         graphics.setColor(Color.BLUE);
         graphics.drawRect(0,0,width-1,height-1);
 
-        graphics.setColor(Color.YELLOW);
+        graphics.setColor(Color.BLACK);
         graphics.setFont(new Font("楷体",Font.BOLD,24));
         String str="ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234546789";
         String checkCode="";

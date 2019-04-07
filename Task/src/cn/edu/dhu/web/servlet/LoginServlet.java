@@ -30,17 +30,26 @@ public class LoginServlet extends HttpServlet {
         User loginUser=new User();
         loginUser.setUserName(userName);
         loginUser.setPassword(password);*/
+        if (request.getAttribute("user")!=null){
+            request.getRequestDispatcher("/index.jsp").forward(request,response);
+        }
         String verifycode = request.getParameter("verifycode");
         HttpSession session = request.getSession();
         String  checkcode_server = (String) session.getAttribute("CHECKCODE_SERVER");
         session.removeAttribute("CHECKCODE_SERVER");
+        if (checkcode_server==null){
+            request.setAttribute("login_msg","请点击图片刷新验证码");
+            request.getRequestDispatcher("/index.jsp").forward(request,response);
+        }
         if (!checkcode_server.equalsIgnoreCase(verifycode)){
             request.setAttribute("login_msg","验证码错误");
             request.getRequestDispatcher("/login.jsp").forward(request,response);
-
             return;
         }
         Map<String,String[]> map=request.getParameterMap();
+        if (map==null||map.size()==0){
+            return;
+        }
         User loginUser=new User();
         try {
             BeanUtils.populate(loginUser,map);
@@ -58,7 +67,7 @@ public class LoginServlet extends HttpServlet {
 //            response.getWriter().print("<script> alert(\"请确认您的账号密码!\"); </script>");
 //            response.getWriter().write("<script> alert(\"请确认您的账号密码!\"); </script>");
         }else {
-            request.setAttribute("user",user);
+            session.setAttribute("user",user);
             request.getRequestDispatcher("/index.jsp").forward(request,response);
         }
     }

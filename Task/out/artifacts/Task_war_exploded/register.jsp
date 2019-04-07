@@ -20,7 +20,7 @@
     <script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
     <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/RegisterUI.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/RegisterUI.js"></script>
 </head>
 <body>
 <div class="container">
@@ -63,7 +63,7 @@
         </div>
 
         <div class="form-group has-success has-feedback" id="ageStateDiv">
-            <label for="password1" class="col-sm-2 control-label">年龄：</label>
+            <label for="age" class="col-sm-2 control-label">年龄：</label>
             <div class="col-sm-8">
                 <input type="text" class="form-control" id="age" name="age"
                        onblur="checkAge()" placeholder="请输入年龄">
@@ -86,7 +86,7 @@
         <div class="form-group has-success has-feedback" id="emailStateDiv">
             <label  class="col-sm-2 control-label">Email：</label>
             <div class="col-sm-8">
-                <input type="text" class="form-control" id="email" name="email"
+                <input type="email" class="form-control" id="email" name="email"
                        onblur="checkEmail()" placeholder="请输入邮箱地址"/>
                 <span id="emailStateSpan"></span>
             </div>
@@ -96,9 +96,15 @@
         <div class="form-group" style="text-align: center">
             <input class="btn btn-primary" type="submit" value="提交" />
             <input class="btn btn-default" type="reset" value="重置" />
-            <input class="btn btn-default" type="button" value="返回" />
+            <a href="${pageContext.request.contextPath}/findUserByPageServlet"><input class="btn btn-default" type="button" value="返回" /></a>
         </div>
     </form>
+    <div class="container alert alert-warning alert-dismissible" role="alert"  style="width: 400px;">
+        <button type="button" class="close" data-dismiss="alert" >
+            <span>&times;</span>
+        </button>
+        <strong>${register_msg}</strong>
+    </div>
 </div>
 </body>
 </html>

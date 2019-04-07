@@ -43,8 +43,7 @@ public class UserDAOImpl implements UserDAO {
     public User find(String userName) {
         try {
             String sql = "SELECT * FROM taskUser WHERE userName=?";
-            User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class),
-                    userName);
+            User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), userName);
             return user;
         } catch (Exception e) {
             return null;
@@ -101,12 +100,13 @@ public class UserDAOImpl implements UserDAO {
             String s = contion.get(key)[0];
             if (s!=null&& ""!=s){
                 stringBuilder.append(" and  "+key+"  like  ? ");
-                list.add("%"+s+"% ");
+                list.add("%"+s+"%");
             }
         }
 
         sql=stringBuilder.toString();
-        return template.queryForObject(sql,Integer.class,list.toArray());
+        int count = template.queryForObject(sql, Integer.class , list.toArray());
+        return count;
     }
 
     @Override

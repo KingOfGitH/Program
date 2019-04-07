@@ -24,10 +24,13 @@
 
 </head>
 <body>
-<div>${user.userName}，欢迎您</div>
+
+<h3 style="text-align: center;">用户${user.userName}，欢迎您</h3>
 <div align="center">
   <a href="${pageContext.request.contextPath}/findUserByPageServlet">查询用户列表</a>
 </div>
-
+<div align="center">
+  <a href="${pageContext.request.contextPath}/logoutServlet">安全退出</a>
+</div>
   </body>
 </html>

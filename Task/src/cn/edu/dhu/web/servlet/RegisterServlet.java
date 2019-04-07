@@ -36,11 +36,17 @@ public class RegisterServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        System.out.println(registerUser);
-        UserService userService=new UserServiceImpl();
-        userService.register(registerUser);
 
-        response.sendRedirect(request.getContextPath()+"/userListServlet");
+        UserService userService=new UserServiceImpl();
+        if (userService.find(registerUser.getUserName())==null){
+            userService.register(registerUser);
+            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+        }else {
+//            request.setAttribute("registerUser",registerUser);
+            request.setAttribute("register_msg","用户名已存在！请重试！");
+            request.getRequestDispatcher("/register.jsp").forward(request,response);//转发
+        }
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
