@@ -31,7 +31,7 @@
             <label for="userName" class="col-sm-2 control-label">用户名：</label>
             <div class="col-sm-8">
                 <input type="text" class="form-control" id="userName" name="userName" onblur="checkName()"
-                       placeholder="请输入用户名，由3-30位字母数字下划线组成，不能由下划线开头">
+                       placeholder="请输入用户名，由3-30位字母数字下划线组成，不能由下划线开头，区分大小写">
                 <span id="userNameStateSpan" class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
             </div>
         </div>
