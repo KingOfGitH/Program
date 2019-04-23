@@ -6,43 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4ae93b-4f60-4db7-bb89-8b42990823e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/cn/edu/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/src/test/java/cn/edu/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/imageservce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/exception/SysExceptiomnResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/exception/SysException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/interceptor/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/java/cn/edu/dhu/utils/StringToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/webapp/WEB-INF/pages/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/webapp/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spingmvc1/src/main/webapp/js/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/springmvc2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc2/src/main/webapp/uploads/LongKui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad4ae93b-4f60-4db7-bb89-8b42990823e7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,16 +61,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+            <state relative-caret-position="81">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -214,7 +178,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -231,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/dhu/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -276,7 +240,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="446" />
     <option name="width" value="1413" />
     <option name="height" value="1047" />
@@ -415,6 +379,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -613,7 +578,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555847197579</updated>
-      <workItem from="1555847200817" duration="17971000" />
+      <workItem from="1555847200817" duration="19172000" />
     </task>
     <servers />
   </component>
@@ -650,11 +615,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17971000" />
+    <option name="totallyTimeSpent" value="19172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -675,7 +639,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -875,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -891,8 +848,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
