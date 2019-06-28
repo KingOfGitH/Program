@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop.xsd
+           ">
+
+    <!-- 扫描controller的注解，别的不扫描 -->
+    <context:component-scan base-package="cn.edu.dhu">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!-- 配置视图解析器 -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- JSP文件所在的目录 -->
+        <property name="prefix" value="/pages/"/>
+        <!-- 文件的后缀名 -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+    <!-- 设置静态资源不过滤 -->
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/img/" mapping="/img/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
+    <mvc:resources location="/plugins/" mapping="/plugins/**" />
+
+<!--    &lt;!&ndash; 配置拦截器 &ndash;&gt;-->
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            &lt;!&ndash; 哪些方法进行拦截 &ndash;&gt;-->
+<!--            <mvc:mapping path="/user/*"/>-->
+<!--            &lt;!&ndash; 哪些方法不进行拦截-->
+<!--            <mvc:exclude-mapping path=""/>-->
+<!--            &ndash;&gt;-->
+<!--            &lt;!&ndash; 注册拦截器对象 &ndash;&gt;-->
+<!--            <bean class="cn.edu.dhu.interceptor.MyInterceptor"/>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
+
+    <!-- 开启对SpringMVC注解的支持 -->
+    <mvc:annotation-driven/>
+
+    <!-- 配置配置类型转换器注解驱动 -->
+    <mvc:annotation-driven conversion-service="conversionService" />
+    <!-- 配置类型转换器 -->
+    <bean id="conversionService"		class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="cn.edu.dhu.ssm.utils.DateConverter" />
+            </set>
+        </property>
+    </bean>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+</beans>

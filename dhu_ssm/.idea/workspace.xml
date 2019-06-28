@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f85931ef-c619-4f9e-b2a1-7ad9ac32aa72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IMemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/ITravellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Traveller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_utils/src/main/java/cn/edu/dhu/ssm/utils/DateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_utils/src/main/java/cn/edu/dhu/ssm/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/failer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/img/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-list1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test19.3.27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test19.3.27/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/cn/dhu/edu/HelloWorld.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_dao/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_domin/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_service/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_utils/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_web/target/" />
+    <ignored path="$PROJECT_DIR$/dhu_ssm_domain/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-permission-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216">
+              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2322">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="153" column="106" selection-start-line="153" selection-start-column="106" selection-end-line="153" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/PermissionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IRoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IRoleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="43" column="102" selection-start-line="43" selection-start-column="102" selection-end-line="43" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.itheima</find>
+      <find>do</find>
+      <find>save</find>
+      <find>security</find>
+      <find>注销</find>
+      <find>userl</find>
+      <find>login</find>
+      <find>新建</find>
+      <find>role</find>
+      <find>角色</find>
+      <find>user</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cn.edu.dhu</replace>
+      <replace>权限</replace>
+      <replace>角色</replace>
+      <replace>permission</replace>
+      <replace>role</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_utils/src/main/java/cn/edu/dhu/ssm/utils/DateConverter.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Member.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Traveller.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Orders.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/orders-list.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IMemberId.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/ITraveller.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/ITravellerDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IOrdersDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/orders-show.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/failer.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/UserInfo.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-show.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Role.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IPermissionDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IPermissionService.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-list.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-permission-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-role-add.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/syslog-list.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-list.jsp" />
+        <option value="$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IRoleDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\app\GitHub\maven_repository" />
+        <option name="mavenHome" value="D:/Program Files (x86)/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Program Files (x86)\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dhu_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dhu_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dhu_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dhu_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="276" />
+    <option name="y" value="76" />
+    <option name="width" value="1541" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhu_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhu_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dhu_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.edu.dhu.ssm.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\GitHub\Program\dhu_ssm\dhu_ssm_web\src\main\webapp\pages" />
+      <recent name="D:\app\GitHub\Program\dhu_ssm\dhu_ssm_web\src\main\webapp\img" />
+      <recent name="D:\app\GitHub\Program\dhu_ssm\dhu_ssm_web\src\main\resources" />
+      <recent name="D:\app\GitHub\Program\dhu_ssm\dhu_ssm_web\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\GitHub\Program\dhu_ssm\dhu_ssm_web\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ssm" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dhu_ssm_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\张博锐\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f85931ef-c619-4f9e-b2a1-7ad9ac32aa72" name="Default Changelist" comment="" />
+      <created>1560756586543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560756586543</updated>
+      <workItem from="1560756590135" duration="12799000" />
+      <workItem from="1560868343412" duration="878000" />
+      <workItem from="1560869248399" duration="1175000" />
+      <workItem from="1560870476342" duration="1409000" />
+      <workItem from="1560872365404" duration="773000" />
+      <workItem from="1560873158793" duration="620000" />
+      <workItem from="1560873903662" duration="17188000" />
+      <workItem from="1561381749617" duration="48000" />
+      <workItem from="1561382260298" duration="7000" />
+      <workItem from="1561444907898" duration="16607000" />
+      <workItem from="1561563018459" duration="25606000" />
+      <workItem from="1561695086589" duration="20823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="97933000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="1000" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1818766" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49614397" visible="true" weight="0.27251732" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6032787" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50385606" side_tool="true" weight="0.27251732" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24941905" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297659" />
+      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.14974293" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25948876" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.42131147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.28360656" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32223904" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3861">
+          <caret line="149" column="59" lean-forward="true" selection-start-line="149" selection-start-column="59" selection-end-line="149" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IMemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/failer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-list1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="196" column="96" selection-start-line="196" selection-start-column="96" selection-end-line="196" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/orders-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4949">
+          <caret line="468" column="38" selection-start-line="468" selection-start-column="38" selection-end-line="468" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1566">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5076">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8181">
+          <caret line="346" column="5" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/resources/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="156" column="97" selection-start-line="156" selection-start-column="97" selection-end-line="156" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_domain/src/main/java/cn/edu/dhu/ssm/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IPermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/syslog-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/permission-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/user-role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="95" column="66" selection-start-line="95" selection-start-column="66" selection-end-line="95" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-permission-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2322">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/webapp/pages/role-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="153" column="106" selection-start-line="153" selection-start-column="106" selection-end-line="153" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_web/src/main/java/cn/edu/dhu/ssm/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_service/src/main/java/cn/edu/dhu/ssm/service/Impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhu_ssm_dao/src/main/java/cn/edu/dhu/ssm/dao/IRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="43" column="102" selection-start-line="43" selection-start-column="102" selection-end-line="43" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>dhu_ssm_web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (dhu_ssm_dao)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dhu_ssm_web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.oracle:ojdbc6:11.2.0.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install -Dmaven.test.skip=true" />
+    <option value="install:install-file -Dfile=D:/app/oracle/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=/D/app/oracle/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar" />
+  </component>
+</project>

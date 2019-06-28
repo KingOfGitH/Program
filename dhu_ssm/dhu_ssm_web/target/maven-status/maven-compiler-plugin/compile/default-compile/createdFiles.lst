@@ -1,0 +1,5 @@
+cn\edu\dhu\ssm\controller\PermissionController.class
+cn\edu\dhu\ssm\controller\ProductController.class
+cn\edu\dhu\ssm\controller\RoleController.class
+cn\edu\dhu\ssm\controller\OrderController.class
+cn\edu\dhu\ssm\controller\UserController.class
