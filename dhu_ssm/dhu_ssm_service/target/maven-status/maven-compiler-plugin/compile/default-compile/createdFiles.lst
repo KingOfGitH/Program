@@ -1,7 +1,9 @@
 cn\edu\dhu\ssm\service\IRoleService.class
+cn\edu\dhu\ssm\service\Impl\SysLogServiceImpl.class
 cn\edu\dhu\ssm\service\Impl\PermissionServiceImpl.class
 cn\edu\dhu\ssm\service\IUserService.class
 cn\edu\dhu\ssm\service\IProductService.class
+cn\edu\dhu\ssm\service\ISysLogService.class
 cn\edu\dhu\ssm\service\IPermissionService.class
 cn\edu\dhu\ssm\service\IOrderService.class
 cn\edu\dhu\ssm\service\Impl\UserServiceImpl.class
