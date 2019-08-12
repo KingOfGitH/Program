@@ -6,10 +6,9 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<a href="${pageContext.request.contextPath}/product/findAll.do">查询所有</a>
 
 <script>
-        window.location.href="${pageContext.request.contextPath}/pages/main.jsp";
+        window.location.href="${pageContext.request.contextPath}/pages/login.jsp";
 </script>
 </body>
 </html>
