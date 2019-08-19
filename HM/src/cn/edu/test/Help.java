@@ -16,5 +16,14 @@ class Help {
         System.out.println("子类普通成员变量");
         return 6;
     }
+
+    public static int interfaceStaticMemberVarInit() {
+        System.out.println("父接口静态成员变量");
+        return 4;
+    }
+    public static int interfaceMemberVarInit() {
+        System.out.println("父接口普通成员变量");
+        return 4;
+    }
 }
  

@@ -4,6 +4,7 @@ package cn.edu.dhu.ssm.domain;
  * @author zhbr
  * @date 2019/6/25 15:12
  */
+
 public class Member {
     private String id;
     private String name;

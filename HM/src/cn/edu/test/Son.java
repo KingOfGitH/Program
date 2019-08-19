@@ -38,14 +38,24 @@ class Son extends Father implements Interface {
 
     @Override
     public void sayInterfaceHello(String s) {
-        System.out.println("Son实现InterfaceHello：Hello "+s);
+        System.out.println(interfaceA+"Son实现InterfaceHello：Hello "+s);
     }
 
     public void sayPublicFather() {
         System.out.println("Son override 父类public方法 "+fatherPublicMember);
     }
 
-    private void sayPrivateFather() {
+    public void sayPrivateFather() {
         System.out.println("私有方法无法覆盖");
+    }
+
+    private static void useA() {
+        useB();
+        Help.fatherMemberVarInit();
+        System.out.println(a);
+    }
+
+    private static void useB() {
+        System.out.println(a);
     }
 }

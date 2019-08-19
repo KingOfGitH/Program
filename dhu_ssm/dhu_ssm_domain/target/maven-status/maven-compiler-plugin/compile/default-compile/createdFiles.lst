@@ -1,8 +1,0 @@
-cn\edu\dhu\ssm\domain\Permission.class
-cn\edu\dhu\ssm\domain\SysLog.class
-cn\edu\dhu\ssm\domain\Traveller.class
-cn\edu\dhu\ssm\domain\UserInfo.class
-cn\edu\dhu\ssm\domain\Orders.class
-cn\edu\dhu\ssm\domain\Member.class
-cn\edu\dhu\ssm\domain\Product.class
-cn\edu\dhu\ssm\domain\Role.class

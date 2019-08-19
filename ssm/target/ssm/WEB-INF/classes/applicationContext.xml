@@ -21,14 +21,14 @@
 
     <!-- 配置C3P0的连接池对象 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql:///ssm" />
-        <property name="user" value="root" />
-        <property name="password" value="root" />
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///ssm"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
     </bean>
     <!-- 配置SqlSession的工厂 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <!-- 配置扫描dao的包 -->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -38,14 +38,14 @@
     <!--配置Spring框架声明式事务管理-->
     <!--配置事务管理器-->
     <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="dataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <!--配置事务通知-->
     <tx:advice id="txAdvice" transaction-manager="dataSourceTransactionManager">
-    <tx:attributes>
-        <tx:method name="find*" read-only="true"/>
-        <tx:method name="*" isolation="DEFAULT"/>
-    </tx:attributes>
+        <tx:attributes>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="*" isolation="DEFAULT"/>
+        </tx:attributes>
     </tx:advice>
     <!--配置AOP增强-->
     <aop:config>
