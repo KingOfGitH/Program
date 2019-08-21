@@ -7,34 +7,36 @@ import java.util.List;
 public class 小测试 {
 
     public static void main(String args[]) {
-        int i=1,a=0,b=0,c=0,d=0;
-        switch (i){
-            default: c++;
-            case 1: a++ ;
-            case 2: b++ ;
-        }
-        a=i+++b;
-        System.out.println(a+" "+b+" "+i);
-        Thread t1=new Thread();
-        t1.run();
-        int arr[]=null;
-        String s="    a      ";
-        if (s==null|| s.length()<=0) System.out.println(0);
-//        else System.out.println(s.split("\\s+").length);
-        String[] split = s.split("\\s");
-        System.out.println(Arrays.toString(split));
-//        if (s.charAt(0)==' '){
-//            s = s.substring(1, s.length());
+
+        System.out.println("b".compareTo("b"));
+//        int i=1,a=0,b=0,c=0,d=0;
+//        switch (i){
+//            default: c++;
+//            case 1: a++ ;
+//            case 2: b++ ;
 //        }
+//        a=i+++b;
+//        System.out.println(a+" "+b+" "+i);
+//        Thread t1=new Thread();
+//        t1.run();
+//        int arr[]=null;
+//        String s="    a      ";
 //        if (s==null|| s.length()<=0) System.out.println(0);
-//        if (s.charAt(s.length()-1)==' '){
-//            s = s.substring(0, s.length()-1);
-//        }
-        System.out.println("".equals(" "));
-        char aa='a';
-        a=aa;
-        char ab='b';
-        System.out.println(97^98);
+////        else System.out.println(s.split("\\s+").length);
+//        String[] split = s.split("\\s");
+//        System.out.println(Arrays.toString(split));
+////        if (s.charAt(0)==' '){
+////            s = s.substring(1, s.length());
+////        }
+////        if (s==null|| s.length()<=0) System.out.println(0);
+////        if (s.charAt(s.length()-1)==' '){
+////            s = s.substring(0, s.length()-1);
+////        }
+//        System.out.println("".equals(" "));
+//        char aa='a';
+//        a=aa;
+//        char ab='b';
+//        System.out.println(97^98);
 
 
 //        String str1 = "hello";
