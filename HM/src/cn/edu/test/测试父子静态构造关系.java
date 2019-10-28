@@ -4,11 +4,24 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class 测试父子静态构造关系 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Son son2 = new Son();
+            }
+        });
+        thread.start();
+        thread.sleep(2000);
+
+
+        System.out.println("===================");
+
         Son son1 = new Son();
         System.out.println("===================");
 
         System.out.println(son1.a);
+
         System.out.println(son1.fatherPublicMember);
         son1.sayInterfaceHello("heihei");
         son1.sayPrivateFather();

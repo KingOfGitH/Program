@@ -8,7 +8,8 @@ public class 小测试 {
 
     public static void main(String args[]) {
 
-        System.out.println("b".compareTo("b"));
+        Integer a = 128; Integer b = 128;
+        System.out.println(a==b);
 //        int i=1,a=0,b=0,c=0,d=0;
 //        switch (i){
 //            default: c++;

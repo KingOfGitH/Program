@@ -9,9 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dhu_ssm_dao" />
         <module name="dhu_ssm_service" />
-        <module name="dhu_ssm_web" />
-        <module name="dhu_ssm_utils" />
         <module name="dhu_ssm_domain" />
+        <module name="dhu_ssm_utils" />
+        <module name="dhu_ssm_web" />
       </profile>
     </annotationProcessing>
   </component>
