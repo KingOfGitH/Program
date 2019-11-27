@@ -7,32 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4ae93b-4f60-4db7-bb89-8b42990823e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/SuperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/小测试.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Help.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/测试父子静态构造关系.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/测试父子静态构造关系.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/third/_5QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/third/_5QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/测试父子静态构造关系.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/测试父子静态构造关系.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/third/_5QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/third/_5QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ssm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/拆分数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/特殊败絮.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +94,13 @@
   </component>
   <component name="ProjectId" id="1PXXmKBNTWO4v0huG6glapOnmPo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -124,18 +111,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.SSM">
     <configuration name="TestMybatis.run1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -307,6 +282,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\张博锐\AppData\Roaming\Subversion</configuration>
   </component>
@@ -321,6 +308,7 @@
       <workItem from="1560870461537" duration="13000" />
       <workItem from="1561025058487" duration="52000" />
       <workItem from="1566021575038" duration="262000" />
+      <workItem from="1573989481621" duration="76000" />
     </task>
     <servers />
   </component>
@@ -364,10 +352,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1573989555790">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1573989555790" />
   </component>
 </project>

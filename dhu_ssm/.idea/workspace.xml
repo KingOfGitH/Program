@@ -2,137 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85931ef-c619-4f9e-b2a1-7ad9ac32aa72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/leetcode/tencent/异或值.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/ArraySplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/K个逆序对.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/_410.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/_95n的所有不同二叉排序树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/m和n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/优先有序的偶数topN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/删除排序数组中的重复项.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/反转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/复原IP地址.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/异或值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/无重复字符的最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/最大差异值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/最小非零元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/最长公共前缀.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/最长回文子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/消除和为零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/电话号码.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/盛最多水的容器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/第一题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/第三题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/第二题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/第五题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/第四题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/简化路径.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/leetcode/tencent/获胜方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/equals和等于.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/反转字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/最少凑单.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/最长.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/特殊排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/volatile情况.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/每天至少完成任务.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/第一题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/第三题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/第四题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/简单消消乐.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/两数之和最小.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/分割key和value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/微博第二题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/报数去重.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/指令重排1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/机器人.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/消消乐.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/特殊分组身高.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/算式转移.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/糖果.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/落单的数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/角色配对.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/豆油瓶.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/JUCDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/META-INF/JUCDemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/cn/edu/lock/LockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/cn/edu/lock/MyCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/cn/edu/lock/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/cn/edu/lock/ReadWriteLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/out/production/JUCDemo/cn/edu/lock/SpinLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/cas/ABADemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/cas/CASDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/jihe/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/juc/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/juc/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/lock/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/lock/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/lock/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/lock/ReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUCDemo/src/cn/edu/lock/SpinLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/bijicaogao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/bijijingxuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/dongtaiguihua/_39组合总和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/erchashu/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/erchashu/_101对称二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/erchashu/_144二叉树的前序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/erchashu/_39组合总和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/erchashu/_94二叉树的中序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/_141环形链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/_142环形链表II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/_160相交链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/_21合并两个有序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/lianbao/_61旋转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/other/_136只出现一次的数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/other/_137只出现一次的数字II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/other/_7整数反转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/other/_9回文数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_238除自身以外数组的乘积.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_374猜数字大小.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_40组合总和II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_4寻找两个有序数组的中位数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_69x的平方根.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_704二分查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/shuzu/_88合并两个有序数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/冒泡排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/希尔排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/归并排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/快速排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/插入排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/sort/选择排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/zifuchuan/_344反转字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/zifuchuan/_43字符串相乘.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/zifuchuan/_557反转字符串中的单词III.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/小测试.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/小测试.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/测试父子静态构造关系.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/test/测试父子静态构造关系.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/小测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/小测试.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/test/测试父子静态构造关系.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/test/测试父子静态构造关系.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/拆分数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HM/src/cn/edu/wangyi/特殊败絮.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/out/production/HM/cn/edu/text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM/src/cn/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM/src/cn/edu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,6 +78,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
@@ -206,10 +93,11 @@
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -241,18 +129,6 @@
       <recent name="cn.edu.dhu.ssm.domain" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="ssm" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -279,6 +155,18 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\张博锐\AppData\Roaming\Subversion</configuration>
@@ -316,6 +204,7 @@
       <workItem from="1562595065109" duration="2655000" />
       <workItem from="1566021840272" duration="2934000" />
       <workItem from="1570859602564" duration="651000" />
+      <workItem from="1573989559928" duration="230000" />
     </task>
     <servers />
   </component>
